@@ -1,0 +1,10 @@
+# GreenLineSimulation
+Discrete event simulation of the Minneapolis Green Line
+How to compile
+    ./compile.sh
+How to test
+    ./test.sh <num of trains> <num of train cars> <inter-arrival time>
+After type test.sh, vim will open output file. You can browse output contents by click j, k, h, l
+If you does not like open with vim, you can change the last line in "test.sh".
+The possible editor is emacs, cat, more, less
+
